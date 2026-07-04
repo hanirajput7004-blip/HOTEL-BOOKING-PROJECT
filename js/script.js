@@ -1,0 +1,1 @@
+console.log("Rajput Palace Website Loaded Successfully!");

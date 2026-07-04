@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Hotel | Rajput Palace</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <h2>🏨 Rajput Palace</h2>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="hotels.html">Hotels</a></li>
+            <li><a href="booking.html" class="active">Booking</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="booking-section">
+
+    <div class="booking-card">
+
+        <h2>Book Your Stay</h2>
+
+        <form id="bookingForm">
+
+            <input type="text" id="name" placeholder="Full Name" required>
+
+            <input type="email" id="email" placeholder="Email Address" required>
+
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+
+            <label>Check-in Date</label>
+            <input type="date" id="checkin" required>
+
+            <label>Check-out Date</label>
+            <input type="date" id="checkout" required>
+
+            <input type="number" id="guests" placeholder="Number of Guests" min="1" required>
+
+            <button type="submit" class="btn">
+                Confirm Booking
+            </button>
+
+        </form>
+
+        <p id="bookingMessage"></p>
+
+    </div>
+
+</section>
+
+<script src="js/booking.js"></script>
+
+</body>
+</html>
