@@ -32,7 +32,6 @@ sortSelect.addEventListener("change", function () {
 
 });
 
-// Fetch Hotels
 async function loadHotels() {
 
     hotelContainer.innerHTML = "<h2>Loading Hotels...</h2>";
@@ -56,7 +55,6 @@ async function loadHotels() {
 
 }
 
-// Display Hotels
 function displayHotels(hotels) {
 
     hotelContainer.innerHTML = "";
@@ -111,7 +109,6 @@ function displayHotels(hotels) {
 
 }
 
-// Search Hotels
 searchInput.addEventListener("input", function () {
 
     const keyword = this.value.toLowerCase().trim();
@@ -132,5 +129,4 @@ searchInput.addEventListener("input", function () {
 
 });
 
-// Load Hotels
 loadHotels();
